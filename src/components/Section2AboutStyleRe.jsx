@@ -39,7 +39,6 @@ const Section2AboutStyleRe = memo(() => {
               style={{
                 backgroundColor: "#FF4500",
                 color: "#fff",
-                borderRadius: "3px",
                 borderRadius: "20px",
               }}
             >
