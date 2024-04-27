@@ -10,7 +10,7 @@ const Hero = memo(() => {
               className="self-stretch h-9 relative max-w-full overflow-hidden shrink-0 object-cover"
               loading="lazy"
               alt=""
-              src="/style-1@2x.png"
+              src="/footer.png"
             />
           </div>
           <div className="w-[184.5px] overflow-hidden shrink-0 flex flex-row items-center justify-start py-0 pr-3 pl-0 box-border gap-[8px]">
