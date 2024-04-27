@@ -4,11 +4,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  @apply leading-[normal] m-0;
-}
+
 *,
 ::before,
 ::after {
+  font-family: "Inter", sans-serif;
   border-width: 0;
 }

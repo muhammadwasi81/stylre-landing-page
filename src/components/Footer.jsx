@@ -7,20 +7,21 @@ const Footer = () => {
   return (
     <Box
       component={"footer"}
+      className="w-full font-inter"
       sx={{
         backgroundColor: "#0C1E33",
         fontFamily: "inter",
         color: "white",
-        width: "100%",
       }}
     >
       <Container sx={{ p: 4 }}>
-        <Grid container spacing={2} justifyContent="space-between">
+        <Grid container spacing={3} justifyContent="space-between">
           <Grid item xs={12} sm={4}>
             <Box
               component="img"
               src="/footer.png"
               alt="Style.Re"
+              className="cursor-pointer relative right-[20px]"
               sx={{ width: 200, mb: 2 }}
             />
             <Box sx={{ display: "flex", gap: 1, cursor: "pointer" }}>
@@ -47,37 +48,67 @@ const Footer = () => {
           <Grid item xs={12} sm={4}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
-                <Typography variant="subtitle2" sx={{ opacity: 0.8, mb: 1 }}>
+                <Typography sx={{ opacity: 0.8, mb: 1 }} className="font-inter">
                   Company
                 </Typography>
                 <Box
                   sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}
                 >
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     About
                   </Link>
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     Partner with Us
                   </Link>
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     Contact Us
                   </Link>
                 </Box>
               </Grid>
               <Grid item xs={12} sm={6}>
-                <Typography variant="subtitle2" sx={{ opacity: 0.8, mb: 1 }}>
+                <Typography sx={{ opacity: 0.8, mb: 1 }} className="font-inter">
                   Style.Re Account
                 </Typography>
                 <Box
                   sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}
                 >
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     Login/Sign up
                   </Link>
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     Order Pickups
                   </Link>
-                  <Link href="#" color="inherit" underline="hover">
+                  <Link
+                    href="#"
+                    color="inherit"
+                    underline="hover"
+                    className="font-inter"
+                  >
                     Help
                   </Link>
                 </Box>
@@ -98,17 +129,27 @@ const Footer = () => {
         >
           <Box sx={{ display: "flex" }}>
             <img className="w-[30px] cursor-pointer" alt="" src="/svg.svg" />
-            <Typography variant="body2" sx={{ fontSize: ".7rem" }}>
+            <Typography sx={{ fontSize: ".7rem" }} className="font-inter">
               &copy; {currentYear} Style.Re Unlimited & Co. All rights reserved.
               Style.Re and its services are not affiliated or endorsed by the
               retailers on this site. Style.Re does not operate in Alaska.
             </Typography>
           </Box>
           <Box sx={{ fontSize: ".7rem" }}>
-            <Link href="#" color="inherit" underline="hover">
+            <Link
+              href="#"
+              color="inherit"
+              underline="hover"
+              className="font-inter"
+            >
               Terms&nbsp;&nbsp;
             </Link>
-            <Link href="#" color="inherit" underline="hover">
+            <Link
+              href="#"
+              color="inherit"
+              underline="hover"
+              className="font-inter"
+            >
               Privacy
             </Link>
           </Box>

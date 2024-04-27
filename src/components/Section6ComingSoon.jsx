@@ -1,9 +1,9 @@
-import { Grid, Container, Typography, Box } from "@mui/material";
+import { Grid, Container, Box } from "@mui/material";
 import { memo } from "react";
 
 const Section6ComingSoon = memo(() => {
   return (
-    <Container maxWidth="lg" sx={{ my: 5 }}>
+    <Container maxWidth="lg" sx={{ mt: 5 }}>
       <Grid
         container
         spacing={3}
@@ -12,15 +12,9 @@ const Section6ComingSoon = memo(() => {
         margin={"auto"}
       >
         <Grid item xs={12} sm={6} md={6}>
-          <Typography
-            variant="h3"
-            gutterBottom
-            fontWeight={700}
-            className="font-inter"
-            sx={{ fontFamily: "inter" }}
-          >
+          <h1 className="font-inter font-black text-[40px]">
             StyleRe App <br /> Coming Soon
-          </Typography>
+          </h1>
           <Box>
             <img
               className="cursor-pointer h-[50px] w-[200px] object-contain bg-[#D3D3D3] rounded-lg"

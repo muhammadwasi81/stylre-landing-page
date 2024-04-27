@@ -31,7 +31,7 @@ const Hero = memo(() => {
           </div>
         </header>
       </div>
-      <div className="w-[633px] overflow-hidden flex flex-col items-start justify-start gap-[40px] max-w-full mq950:gap-[20px]">
+      <div className="px-5 w-[633px] overflow-hidden flex flex-col items-start justify-start gap-[40px] max-w-full mq950:gap-[20px]">
         <div className="self-stretch overflow-hidden flex flex-col items-start justify-center">
           <h1 className="m-0 self-stretch relative text-inherit leading-[68px] font-extrabold font-inherit mq950:text-32xl mq950:leading-[54px] mq450:text-19xl mq450:leading-[41px]">
             <p className="m-0">Fashion delivered</p>
