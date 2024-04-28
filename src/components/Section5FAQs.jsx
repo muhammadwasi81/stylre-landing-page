@@ -1,6 +1,13 @@
 import { memo } from "react";
 import FrameComponent from "./FrameComponent";
 
+const accordionTitles = [
+  "How does Style.Re order pickup work?",
+  "How much does it cost?",
+  "Is there contactless delivery?",
+  "Will my items be safe?",
+];
+
 const Section5FAQs = memo(() => {
   return (
     <section className="self-stretch flex flex-col items-center justify-center max-w-full text-left text-xl text-darkslategray-200 font-inter">
@@ -45,9 +52,13 @@ const Section5FAQs = memo(() => {
                 retailer and schedule a pickup from a Style.Re runner.
               </div>
             </div>
-            <FrameComponent linkHome="How much does it cost?" />
-            <FrameComponent linkHome="Is there contactless delivery?" />
-            <FrameComponent linkHome="Will my items be safe?" />
+            <div className="cursor-pointer flex flex-col items-start justify-start py-0 pr-0 pl-0 lg:pl-8 box-border max-w-full text-gray-400">
+              <div className="lg:w-[688px] overflow-x-auto flex flex-col items-start justify-start gap-[20px] max-w-full lg:max-w-[688px]">
+                {accordionTitles.map((title, index) => (
+                  <FrameComponent key={index} title={title} />
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

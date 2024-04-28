@@ -9,13 +9,13 @@ const Footer = () => {
       component={"footer"}
       className="w-full font-inter"
       sx={{
-        backgroundColor: "#0C1E33",
+        backgroundColor: "#0D161C",
         fontFamily: "inter",
         color: "white",
       }}
     >
       <Container sx={{ p: 4 }}>
-        <Grid container spacing={3} justifyContent="space-between">
+        <Grid container spacing={3} justifyContent="space-between" pb={10}>
           <Grid item xs={12} sm={4}>
             <Box
               component="img"
@@ -60,7 +60,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    About
+                    <span className="font-inter">About</span>
                   </Link>
                   <Link
                     href="#"
@@ -68,7 +68,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    Partner with Us
+                    <span className="font-inter">Partner with Us</span>
                   </Link>
                   <Link
                     href="#"
@@ -76,7 +76,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    Contact Us
+                    <span className="font-inter">Contact Us</span>
                   </Link>
                 </Box>
               </Grid>
@@ -93,7 +93,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    Login/Sign up
+                    <span className="font-inter">Login/Sign up</span>
                   </Link>
                   <Link
                     href="#"
@@ -101,7 +101,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    Order Pickups
+                    <span className="font-inter">Order Pickups</span>
                   </Link>
                   <Link
                     href="#"
@@ -109,7 +109,7 @@ const Footer = () => {
                     underline="hover"
                     className="font-inter"
                   >
-                    Help
+                    <span className="font-inter">Help</span>
                   </Link>
                 </Box>
               </Grid>
@@ -129,11 +129,11 @@ const Footer = () => {
         >
           <Box sx={{ display: "flex" }}>
             <img className="w-[30px] cursor-pointer" alt="" src="/svg.svg" />
-            <Typography sx={{ fontSize: ".7rem" }} className="font-inter">
+            <span className="font-inter">
               &copy; {currentYear} Style.Re Unlimited & Co. All rights reserved.
               Style.Re and its services are not affiliated or endorsed by the
               retailers on this site. Style.Re does not operate in Alaska.
-            </Typography>
+            </span>
           </Box>
           <Box sx={{ fontSize: ".7rem" }}>
             <Link
