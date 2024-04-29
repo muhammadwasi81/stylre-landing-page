@@ -2,12 +2,12 @@ import { memo } from "react";
 
 const Hero = memo(() => {
   return (
-    <section className="self-stretch flex flex-col items-start justify-start pt-[26px] px-[35px] pb-[229px] box-border gap-[159px] bg-[url('/public/hero@3x.png')] bg-cover bg-no-repeat bg-[top] min-h-[676px] max-w-full text-left text-45xl text-gray-500 font-inter mq950:gap-[40px] mq950:pt-5 mq950:pb-[149px] mq950:box-border mq1425:gap-[79px]">
+    <section className="self-stretch flex flex-col items-start justify-start pt-[26px] px-[10px] pb-[229px] box-border gap-[159px] bg-[url('/public/hero@3x.png')] bg-cover bg-no-repeat bg-[top] min-h-[676px] max-w-full text-left text-45xl text-gray-500 font-inter mq950:gap-[40px] mq950:pt-5 mq950:pb-[149px] mq950:box-border mq1425:gap-[79px]">
       <div className="self-stretch overflow-hidden flex flex-row items-center justify-start pt-0 px-0 pb-0.5 box-border max-w-full mq950:gap-[370px] mq1425:gap-[740px] mq450:gap-[185px]">
         <header className="flex-1 flex flex-row items-center justify-between max-w-full gap-[20px]">
           <div className="w-[184.5px] flex flex-col items-start justify-start">
             <img
-              className="self-stretch h-9 relative max-w-full overflow-hidden shrink-0 object-cover"
+              className="cursor-pointer self-stretch h-9 relative overflow-hidden shrink-0 object-cover"
               loading="lazy"
               alt=""
               src="/footer.png"

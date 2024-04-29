@@ -15,8 +15,8 @@ const FrameComponent = ({ title }) => {
 
   return (
     <div
-      className={`w-[688px] rounded-2xl box-border overflow-hidden flex flex-col items-start justify-start py-3 px-5 gap-[13px] border-[1px] border-solid border-gray-600 ${
-        isOpen ? "bg-white" : ""
+      className={`rounded-2xl box-border mb-5 overflow-hidden flex flex-col items-start justify-start py-3 px-5 gap-[13px] border-[1px] border-solid border-gray-600 ${
+        isOpen ? "bg-[#fff]" : ""
       }`}
     >
       <div
